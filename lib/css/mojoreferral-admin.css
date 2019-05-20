@@ -1,0 +1,185 @@
+/* settings page */
+table.mojoreferral-table {
+	margin:0 0 30px 0;
+}
+
+div.mojoreferral-form-text {
+	margin:0 0 20px 0;
+}
+
+td.apikey-field-wrapper span.password-toggle {
+	font-size: 24px;
+	height: 24px;
+	width: 24px;
+	cursor: pointer;
+	position: relative;
+	top: 2px;
+}
+
+td.apikey-field-wrapper span.password-toggle.password-visible {
+	color: #0088cc;
+}
+
+input#mojoreferral-api::-ms-reveal,
+input#mojoreferral-api::-ms-clear {
+	display: none !important;
+}
+
+/* settings sidebar */
+div.mojoreferral-sidebox {}
+
+div.mojoreferral-sidebox hr {
+	margin: 1em 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgb( 0, 0, 0 );
+    border-top: 1px solid rgba( 0, 0, 0, 0.1 );
+    border-bottom: 1px solid rgb( 255, 255, 255 );
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.3 );
+}
+
+div.mojoreferral-sidebox span.mojoreferral-spinner {
+	float: none;
+	vertical-align: top;
+	display: inline-block;
+	visibility: hidden;
+}
+
+/* status specific */
+div#mojoreferral-admin-status .inside {
+	margin-top: 0;
+	padding-top: 18px;
+}
+
+div#mojoreferral-admin-status p {
+	margin: 0 0 1em;
+}
+
+div#mojoreferral-admin-status span.api-status-icon {
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	background: #ccc;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 7px;
+	position: relative;
+	top: -1px;
+}
+
+div#mojoreferral-admin-status span.api-status-icon-good {
+	background: green;
+}
+
+div#mojoreferral-admin-status span.api-status-icon-bad {
+	background: red;
+}
+
+div#mojoreferral-admin-status p.api-status-actions {}
+
+div#mojoreferral-admin-status p.api-status-actions span.api-status-checkmark {
+	color: #6666FF;
+	font-size: 28px;
+	height: 28px;
+	width: 28px;
+}
+
+/* table */
+table.mojoreferral-table {}
+
+table.mojoreferral-table tr.secondary th,
+table.mojoreferral-table tr.secondary td {
+	padding: 10px 0 10px 20px;
+}
+
+table.mojoreferral-table tr.secondary th label {
+	color: #666666;
+	font-style: italic;
+}
+
+table.mojoreferral-table tr.secondary td span {
+	margin: 0 10px 0 0;
+}
+
+table.mojoreferral-table td.setting-item input {
+	margin: -1px 5px 0 0;
+}
+
+table.mojoreferral-table td.setting-item label {
+	font-size: 13px;
+	font-style: italic;;
+}
+
+/* post table */
+table th.column-mojoreferral-click {
+	text-align: left;
+	width: 4em;
+	vertical-align: middle;
+	padding: 0;
+}
+
+table td.column-mojoreferral-click {
+	padding: 8px 0;
+	text-align: left;
+	width: 4em;
+}
+
+div.row-actions a.mojoreferral-admin-row-link:focus {
+	box-shadow: none;
+}
+
+/* post metabox */
+
+div#mojoreferral-post-display p.mojoreferral-meta-block {
+	display: block;
+	margin: 0 0 10px;
+}
+
+div#mojoreferral-post-display p.mojoreferral-meta-block input.mojoreferral-keyw {
+	display: inline-block;
+	width: 50%;
+	margin-right: 4%;
+}
+
+div#mojoreferral-post-display p.mojoreferral-meta-block span.description {
+	display: inline-block;
+	width: 45%;
+}
+
+div#mojoreferral-post-display p.mojoreferral-meta-block span.mojoreferral-spinner {
+	float: none;
+	vertical-align: top;
+	display: inline-block;
+	visibility: hidden;
+}
+
+div#mojoreferral-post-display p.mojoreferral-create-block input.mojoreferral-api {
+	display: inline-block;
+	width: 35%;
+}
+
+
+div#mojoreferral-post-display p.mojoreferral-exist-block input.mojoreferral-link-input {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80%;
+	margin-right: 2%;
+}
+
+div#mojoreferral-post-display p.mojoreferral-exist-block span.mojoreferral-delete {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #7F0000;
+	zoom: 1;
+	filter: alpha(opacity=65);
+	opacity: 0.65;
+	font-size: 26px;
+	height: 26px;
+	width: 26px;
+}
+
+div#mojoreferral-post-display p.mojoreferral-exist-block span.mojoreferral-delete:hover {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}

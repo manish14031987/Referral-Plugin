@@ -1,0 +1,369 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+ .mojo-referral-container.register{
+    margin-top: 3%;
+    padding: 3%;
+    width: 100%;
+}
+.mojo-referral-container.register .row{
+    width:100%;
+    display: flex;
+}
+.mojo-referral-container .register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+    width:30%;
+}
+
+.mojo-referral-container .register-form-inner .register-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.mojo-referral-container .register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.mojo-referral-container .register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    width:70%;
+}
+.mojo-referral-container .register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+.mojo-referral-container .register-form-inner {
+    margin-bottom: 1rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    float: left;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.mojo-referral-container .register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.mojo-referral-container.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mojo-referral-container input.register-form-control.btnRegister{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 1.5rem;
+    padding: 2%;
+    margin: 20px auto;
+    width: 200px;
+    line-height: unset;
+}
+.mojo-referral-container.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.mojo-referral-container.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.mojo-referral-container.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.mojo-referral-container.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.mojo-referral-container .register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+}
+.mojo-referral-container .register-col-12 {
+    clear: both;
+    width: 80%;
+    margin: 0px auto;
+}
+.mojo-referral-container .register-col-12 #copyButton, .mojo-referral-container #generateButton, .mojo-referral-container .btnGenerateLink, .mojo-referral-container #mojoLoginButton{ 
+    font-size: 16px;
+    font-weight: normal;
+    color: #42d898;
+    text-decoration: none;
+    border: 1px solid #42D898;
+    border-radius: 3px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+}
+.mojo-referral-container .btnGenerateLink{
+    border: none;
+    background: #0062cc !important;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 1.5rem;
+    padding: 20px 40px !important;
+    margin: 20px auto;
+    width: auto;
+    line-height: unset;
+}
+.mojo-referral-container .register-col-12 #copyButton:focus {
+    border: 1px solid #42D898;
+    outline-color: #42D898;
+}
+
+.mojo-referral-container .social-container {
+  margin:0 auto;
+  padding: 0;
+  height:100%;
+}
+
+/* Add this ID to a section or something you want to change the background-color */
+.mojo-referral-container #social-section {
+  padding:60px 0;
+  -webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+transition: all .2s ease-out;
+}
+
+/* Button Styles */
+.mojo-referral-container .social-container a {
+    display: inline-block;
+    width: calc(50% - 40px);
+    line-height: 40px;
+    border: 1px solid #0062cc;
+    color: rgba(0,0,0,.6);
+    text-decoration: none;
+    text-align: center;
+    color: #0062cc !important;
+    margin: 20px auto;
+}
+
+.mojo-referral-container .social-container a i {
+margin-right: 15px;   
+}
+
+.mojo-referral-container .social-container a:hover  {
+border: 1px solid rgba(255,255,255,.3);
+color: rgba(255,255,255,.6);
+}
+
+/* Hover background colors */
+.mojo-referral-container .color-twitter {
+  background-color: #00aced !important;
+}
+.mojo-referral-container .color-facebook {
+  background-color: #3b5998 !important;
+}
+
+.mojo-referral-container .social-container a.twitter:hover {
+    background: #00aced;
+    color: #fff !important;
+}
+
+.mojo-referral-container .social-container a.facebook:hover {
+    background: #3b5998;
+    color: #fff !important;
+}
+.mojo-referral-container .mojo-referral-error{
+    color:red;
+}
+.mojo-referral-container .row.register-form{
+    position: relative;
+    display: block;
+}
+.mojo-referral-container .mojo-referral-overlay{
+    position: absolute;
+    z-index: 999;
+    padding-top: 5%;
+    height: 100%;
+    padding-bottom: 15%;
+    width: 80%;
+}
+.mojo-referral-container .mojo-referral-overlay-blur{
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.mojo-referral-container #generateButton, .mojo-referral-container #mojoLoginButton{
+    background:#0062cc ; 
+    border: 2px solid #fff !important;
+    border-radius: 40px;
+}
+
+.mojo-referral-container .register-col-5 {
+    width: 45%;
+    float: left;
+}
+.mojo-referral-container .register-col-2 {
+    width: 10%;
+    float: left;
+}
+
+.mojo-referral-container .register-row {
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* Style the tab */
+.mojo-referral-container .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.mojo-referral-container .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.mojo-referral-container .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.mojo-referral-container .tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.mojo-referral-container .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.mojo-referral-container button.tablinks {
+    border-radius: 0;
+    color: #ff1654;
+}
+
+.mojo-user-lisi-paginate{
+    padding:5px; margin:5px;border: 1px solid;
+}
+@media (max-width: 1024px) {
+.mojo-referral-container .register-right {
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+    width: 100%;
+    float: none;
+}
+
+.mojo-referral-container .register-left {
+    width: 100%;
+    float: none;
+}
+
+
+.mojo-referral-container.register .register-form {
+    padding-top: 10%;
+    margin-top: 20%;
+}
+
+.mojo-referral-container .register-col-12 {
+    clear: both;
+    width: 90%;
+}
+
+.mojo-referral-container .social-container a {
+    width: 45%;
+    margin: 10px 2%;
+}
+
+.mojo-referral-container .register-heading {
+    margin-top: 0%;
+    padding-top: 25px;
+    padding: 15px;
+    padding-right: 15px;
+}
+
+.mojo-referral-container.register .register-form {
+    padding: 10px;
+}
+
+.mojo-referral-container .register-form-inner {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.mojo-referral-container .register-row {
+    width: 100%;
+}
+}
+@media (max-width: 600px) {
+    .mojo-referral-container.register .row{
+        display: block;
+    }
+}
